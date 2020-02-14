@@ -1,0 +1,27 @@
+*{
+	margin: 0px;
+	margin-bottom: 70px;
+	padding: 0px;
+}
+
+	@import url('href="https://fonts.googleapis.com/css?family=Gugi&display=swap');
+  
+  .logo_first {
+  	position:absolute; top: -300px; left: -190px;
+  }
+
+   .logo_big {
+  	position:absolute; top: 800px; left: -250px;
+  }
+
+    .statement {
+  	position:absolute; top: 2100px; left: 0px;
+  }
+
+    .bio {
+  	position:absolute; top: 2400px; left: 100px;
+  	width: 1100px;
+  	font-family: 'Gugi', cursive;
+  	color: rgb(255,206,0);
+  }
+
