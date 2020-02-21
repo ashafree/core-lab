@@ -50,5 +50,49 @@
     color: yellow;
   }
 
+  .nav {
+    left: -200px;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    background-color: #FFCE00;
+    transition: .5s;
+  }
 
+  .nav a{
+    color: white;
+    font-size: 30px;
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+  }
 
+  .nav a:hover{
+    background-color: rgba(209,105,20,0.72);
+  }
+
+  /* the X */
+  .nav button {
+    margin-left: 165px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 30px;
+  }
+
+  .nav button:hover {
+    cursor: pointer;
+    color: rgba(209,105,20,0.72);
+  }
+
+  .content{
+    margin-left: 201px;
+  }
+
+  .content button {
+    font-size: 40px;
+  }
+
+  .content button:hover {
+    cursor: pointer;
+  }
