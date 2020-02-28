@@ -5,9 +5,56 @@
 
 @import url('href="https://fonts.googleapis.com/css?family=Caveat&display=swap"');
 
-  .logo {
+  /*.logo {
     position:absolute; top: -30px; left: 20px;
-  }
+  }*/
+
+.modalDialog10 {
+    position: fixed;
+    top: 10px;
+    left: 370px;
+    background: rgba(0,0,0,0);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+.modalDialog10:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+.modalDialog10 > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+
+}
+
+.close10 {
+    background: #f69a9a;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    left: 1120px;
+    text-align: center;
+    top: 28px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+
+.close10:hover { background: #00d9ff; }
+
 
 .center {
     position: absolute; top: 360px; left: 170px;
@@ -33,7 +80,7 @@ a:hover{
 }
 
 .photo {
-    background-image: url("../assets/keshi_stairs_photoshoot.jpg");
+    background-image: url("../assets/keshi_photo_cover.jpg");
     background-size: cover; 
     width: 100vw;
     height: 100vh;
@@ -203,7 +250,7 @@ a:hover{
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0,0,0,0);
     z-index: 99999;
     opacity:0;
     -webkit-transition: opacity 400ms ease-in;
@@ -254,7 +301,7 @@ a:hover{
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0,0,0,0);
     z-index: 99999;
     opacity:0;
     -webkit-transition: opacity 400ms ease-in;
@@ -305,7 +352,7 @@ a:hover{
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0,0,0,0);
     z-index: 99999;
     opacity:0;
     -webkit-transition: opacity 400ms ease-in;
@@ -357,7 +404,7 @@ a:hover{
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0,0,0,0);
     z-index: 99999;
     opacity:0;
     -webkit-transition: opacity 400ms ease-in;
@@ -409,7 +456,7 @@ a:hover{
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0,0,0,0);
     z-index: 99999;
     opacity:0;
     -webkit-transition: opacity 400ms ease-in;
@@ -452,5 +499,9 @@ a:hover{
 }
 
 .close8:hover { background: #00d9ff; }
+
+@media (max-width: 800px) {
+
+}
 
 
