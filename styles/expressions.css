@@ -33,8 +33,10 @@ a:hover{
 }
 
 .photo {
-    background-image: url("keshi_stairs_photoshoot.jpg");
+    background-image: url("../assets/keshi_stairs_photoshoot.jpg");
     background-size: cover; 
+    width: 100vw;
+    height: 100vh;
 }
 
 .lyrics {
