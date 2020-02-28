@@ -28,14 +28,15 @@
 .flex-image {
     width: 100%;
     height: auto;
-    width: 400px;
+    max-width: 400px;
     align-self: center;
     padding: 20px;
-    flex-basis: 25%;
+  
 }
 
 @media (max-width: 800px) {
     .container {
+        flex-wrap: nowrap;
         background-color: #FFF6BE;
         flex-direction: column;
     }
