@@ -39,9 +39,9 @@
     color: #FFFFFF;
     line-height: 25px;
     position: absolute;
-    left: 1120px;
+    left: 1020px;
     text-align: center;
-    top: 28px;
+    top: 30px;
     width: 24px;
     text-decoration: none;
     font-weight: bold;
@@ -500,7 +500,11 @@ a:hover{
 
 .close8:hover { background: #00d9ff; }
 
-@media (max-width: 800px) {
+@media (max-width: 100px) {
+    .photo {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
 
 }
 
