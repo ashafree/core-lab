@@ -11,8 +11,8 @@
 
 .modalDialog10 {
     position: fixed;
-    top: 10px;
-    left: 370px;
+    top: -50px;
+    left: 470px;
     background: rgba(0,0,0,0);
     z-index: 99999;
     opacity:0;
@@ -87,7 +87,7 @@ a:hover{
 }
 
 .lyrics {
-     position:absolute; top: 430px; left: 130px;
+     position:absolute; top: 470px; left: 130px;
      color: rgb(255,255,255);
   }
 
