@@ -500,12 +500,11 @@ a:hover{
 
 .close8:hover { background: #00d9ff; }
 
-@media (max-width: 100px) {
-    .photo {
+
+@media (max-width: 800px) {
+    .center {
         flex-wrap: nowrap;
-        flex-direction: column;
+        max-width: 200px;
+        max-height: 90px;
     }
-
 }
-
-
