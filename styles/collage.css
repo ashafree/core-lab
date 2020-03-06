@@ -1,0 +1,166 @@
+* {
+    margin: 0px;
+    margin-bottom: 30px;
+    padding: 0px;
+}
+body {
+    background-color: #FFEDBE;
+    position: relative;
+}
+
+
+.image02 {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+
+.image03 {
+    width: 420px;
+    height: 670px;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+}
+
+.image04 {
+    width: 220px;
+    height: 300px;
+    position: absolute;
+    top: 600px;
+    left: 200px;
+}
+
+.image05 {
+    width: 360px;
+    height: 500px;
+    position: absolute;
+    top: 340px;
+    left: 1200px;
+}
+
+.image06 {
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    top: 960px;
+    left: 560px;
+    }
+    
+
+.image07 {
+    width: 220px;
+    height: 300px;
+    position: absolute;
+    top: 200px;
+    left: 600px;
+}
+
+.image08 {
+    width: 360px;
+    height: 450px;
+    position: absolute;
+    top: 990px;
+    left: 370px;
+}
+
+.image09 {
+    width: 360px;
+    height: 500px;
+    position: absolute;
+    top: 200px;
+    left: 1000px;
+}
+
+
+/*.flex {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    align-self: center;
+    padding: 20px; 
+}*/
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+}
+
+/*.peaches {
+    width: 100%;
+    max-width: 500px;
+    flex-basis: 40%;
+    padding: 20px;
+ }*/
+
+ /*.flex {
+    max-width: 400px;
+    align-self: center;
+    padding: 20px; 
+}*/
+
+@media (max-width: 800px) {
+  /*.container {
+        flex-wrap: nowrap;
+        background-color: #FFF6BE;
+        flex-direction: column;
+    }*/
+
+    .image02 {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+    
+    .image03 {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+    
+    .image04 {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+    
+    .image05 {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+    
+    .image06 {
+        position: relative;
+        top: auto;
+        left: auto;
+        }
+        
+    
+    .image07 {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+    
+    .image08 {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+    
+    .image09 {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+}
