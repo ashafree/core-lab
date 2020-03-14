@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #DBDFFF;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.guest {
+    position: absolute;
+    top: 150px;
+    left: 690px;
+}
+
+.welcome {
+    font-family: krungthep;
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    top: 380px;
+    left: 415px;
+}
+
+.click {
+    font-family: krungthep;
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 550px;
+    left: 707px;
+}
+
+a:hover {
+    color: #4654A4; 
+}

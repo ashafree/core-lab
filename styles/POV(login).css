@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #DBDFFF;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.guest01 {
+    position: absolute;
+    top: 200px;
+    left: 900px;
+}
+
+.guest02 {
+    position: absolute;
+    top: 200px;
+    left: 520px;
+}
+
+.guestclick {
+    font-family: krungthep;
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 455px;
+    left: 585px;
+}
+
+.new {
+    font-family: krungthep;
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 455px;
+    left: 930px;
+}
+
+a:hover {
+    color: #4654A4; 
+}
