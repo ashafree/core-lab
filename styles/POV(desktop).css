@@ -76,6 +76,68 @@ a {
     top: 70px;
     left: 200px;
   }
+
+
+
+  .button05 {
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    position: absolute;
+    top: 530px;
+    left: 1495px;
+  }
+  .button05:hover {
+    opacity: 0.6;
+  }
+  
+  .overlay05 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay05:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup05 {
+    transition: all 1s ease-in-out;
+  }
+  .popup05 .close05 {
+    position: absolute;
+    top: 69px;
+    left: 180px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #4655a5;
+  }
+  .popup05 .close05:hover {
+    color: #00FCED;
+  }
+  /*.popup05 .nightmessage {
+    position: absolute;
+    top: 15px;
+    left: 195px;
+  }*/
+  .popup05 .content05 {
+    position: absolute;
+    top: 300px;
+    left: 200px;
+  }
+
+
+
   
  /* @media screen and (max-width: 700px){
     .popup{
