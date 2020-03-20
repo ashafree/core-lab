@@ -3,10 +3,54 @@
     padding: 0px;
 }
   
-  .background {
+.background {
     background-image: url("../assets/nightlife_background.jpg");
+    background-color: #20142C;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+    }
+
+.nightactivity {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    }
+  
+.nightmap {
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    z-index: 1;
+    }
+
+.tooltip {
+    position: absolute;
+    top: 420px;
+    left: 415px;
+    font-size: 70px;
+    color: #ff008a;
+    z-index: 2;
+    }
+    
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #ff008a;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 200px 0;
+    font-size: 20px;
+            
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 40%;
+    left: -250%;
+    }
+    
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    }
