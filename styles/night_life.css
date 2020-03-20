@@ -2,6 +2,10 @@
     margin: 0px;
     padding: 0px;
 }
+
+@font-face {
+    font-family: summercandy;
+}
   
 .background {
     background-image: url("../assets/nightlife_background.jpg");
@@ -36,21 +40,35 @@
     
 .tooltip .tooltiptext {
     visibility: hidden;
-    width: 200px;
+    width: 400px;
     background-color: #ff008a;
     color: #fff;
     text-align: center;
     border-radius: 6px;
-    padding: 200px 0;
+    padding: 60px 0;
     font-size: 20px;
             
     /* Position the tooltip */
     position: absolute;
     z-index: 1;
     bottom: 40%;
-    left: -250%;
+    left: -1100%;
     }
     
 .tooltip:hover .tooltiptext {
     visibility: visible;
     }
+
+.tooltip .tooltiptext .saigon {
+    font-style: 'summer candy', italic;
+    font-size: 40px;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+
+.tooltip .tooltiptext .description01 {
+    font-size: 20px;
+    position: relative;
+    top: 45px;
+}
