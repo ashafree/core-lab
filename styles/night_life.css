@@ -72,3 +72,184 @@
     position: relative;
     top: 45px;
 }
+
+
+.tooltip02 {
+    display: inline-block;
+    position: absolute;
+    top: 300px;
+    left: 830px;
+    font-size: 70px;
+    color: #ff008a;
+    z-index: 2;
+    }
+    
+.tooltip02 .tooltiptext02 {
+    visibility: hidden;
+    width: 400px;
+    background-color: #ff008a;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 60px 0;
+    font-size: 20px;
+            
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -200px;
+    right: 105%;
+    }
+    
+.tooltip02:hover .tooltiptext02 {
+    visibility: visible;
+    }
+
+.tooltip02 .tooltiptext02 .chick {
+    font-style: 'summer candy', italic;
+    font-size: 40px;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+
+.tooltip02 .tooltiptext02 .description02 {
+    font-size: 20px;
+    position: relative;
+    top: 45px;
+}
+
+
+.tooltip03 {
+    position: absolute;
+    top: 460px;
+    left: 555px;
+    font-size: 70px;
+    color: #ff008a;
+    z-index: 2;
+    }
+    
+.tooltip03 .tooltiptext03 {
+    visibility: hidden;
+    width: 400px;
+    background-color: #ff008a;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 60px 0;
+    font-size: 20px;
+            
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 40%;
+    left: -1100%;
+    }
+    
+.tooltip03:hover .tooltiptext03 {
+    visibility: visible;
+    }
+
+.tooltip03 .tooltiptext03 .cafe {
+    font-style: 'summer candy', italic;
+    font-size: 40px;
+    position: absolute;
+    top: 10px;
+    left: 60px;
+}
+
+.tooltip03 .tooltiptext03 .description03 {
+    font-size: 20px;
+    position: relative;
+    top: 45px;
+}
+
+
+.tooltip04 {
+    position: absolute;
+    top: 342px;
+    left: 310px;
+    font-size: 70px;
+    color: #ff008a;
+    z-index: 2;
+    }
+    
+.tooltip04 .tooltiptext04 {
+    visibility: hidden;
+    width: 400px;
+    background-color: #ff008a;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 60px 0;
+    font-size: 20px;
+            
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -200px;
+    left: 105%;
+    }
+    
+.tooltip04:hover .tooltiptext04 {
+    visibility: visible;
+    }
+
+.tooltip04 .tooltiptext04 .pizza {
+    font-style: 'summer candy', italic;
+    font-size: 40px;
+    position: absolute;
+    top: 10px;
+    left: 60px;
+}
+
+.tooltip04 .tooltiptext04 .description04 {
+    font-size: 20px;
+    position: relative;
+    top: 45px;
+}
+
+
+.tooltip05 {
+    position: absolute;
+    top: 250px;
+    left: 630px;
+    font-size: 170px;
+    color: #ff008a;
+    z-index: 2;
+    }
+    
+.tooltip05 .tooltiptext05 {
+    visibility: hidden;
+    width: 400px;
+    background-color: #ff008a;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 60px 0;
+    font-size: 20px;
+            
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -200px;
+    left: 105%;
+    }
+    
+.tooltip05:hover .tooltiptext05 {
+    visibility: visible;
+    }
+
+.tooltip05 .tooltiptext05 .park {
+    font-style: 'summer candy', italic;
+    font-size: 40px;
+    position: absolute;
+    top: 10px;
+    left: 60px;
+}
+
+.tooltip05 .tooltiptext05 .description05 {
+    font-size: 20px;
+    position: relative;
+    top: 45px;
+}
