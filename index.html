@@ -10,7 +10,7 @@
 	<style>
 		
 	body {
-	  background-color: rgb(255, 61, 172);
+	  background-color: #FF67D2;
 	  background-repeat: no-repeat;
 	  background-attachment: fixed;
 	  background-size: cover;
@@ -41,7 +41,11 @@
 		<p style="font-size:330%;"> 
 			My design is an exploration of 
 			color and whimsical styles.
-			If you want to see my first project, it will be about Expressions 01. It is a project that is based on a 50+ word dialogue. so please go over and click over <a class='here' href="./projects/expressions.html">HERE</a> or click <a class='here2' href="project2.html">HERE</a> to 
+			If you want to see my first project, it will be about Expressions 01. 
+			It is a project that is based on a 50+ word dialogue. so please go over 
+			and click over <span style="font-size:100%;cursor:pointer" onclick="openNav()">HERE</span>
+			<!--<a class='here' href="./projects/expressions.html">HERE</a>--> 
+			or click <a class='here2' href="project2.html">HERE</a> to 
 			see my work or if you're feeling
 			adventurous why don’t you 
 			click <a class='here3' href="project3.html">HERE</a> or if you’re sad and
@@ -53,19 +57,14 @@
 		</p>
 	</div>
 
-	<div class="nav" id="nav">
-		<button type="button" name="button" id="closeNav" onclick="closeNav()">X</button>
-		<a href="">Home</a>
-		<a href="">Home</a>
-		<a href="">Home</a>
-		<a href="">Home</a>
-	</div>
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="#">About</a>
+	  </div>
+	  
+	  <!--<span style="font-size:30px;cursor:pointer" onclick="openNav()">open</span>-->
 
-	<div class="content">
-		<button type="button" name="button" onclick="openNav()" id="openButton">Open</button>
-	</div>
-
-	<script type="landing.js"></script>
+	  <script src ="../styles/landing.js"></script>
 
 </body>
 </html>
